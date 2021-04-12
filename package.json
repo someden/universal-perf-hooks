@@ -1,0 +1,37 @@
+{
+  "name": "universal-perf-hooks",
+  "version": "1.0.0",
+  "description": "Universal performance measurement APIs",
+  "main": "dist/index.js",
+  "browser": "dist/browser.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "universal",
+    "isomorphic",
+    "perf-hooks",
+    "performance"
+  ],
+  "author": "Denis Efremov <someden@ya.ru>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/someden/universal-perf-hooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/someden/universal-perf-hooks/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.37"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
