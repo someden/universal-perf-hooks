@@ -1,6 +1,6 @@
 {
   "name": "universal-perf-hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Universal performance measurement APIs",
   "main": "dist/index.js",
   "browser": "dist/browser.js",
@@ -8,7 +8,7 @@
     "build": "tsc"
   },
   "files": [
-    "dist"
+    "dist/"
   ],
   "keywords": [
     "universal",
